@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Gerfen Personal Portfolio Web Development</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 2rem;">Gerfen Web</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="font-size: 1.5rem;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects" style="font-size: 1.5rem;">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="font-size: 1.5rem;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://i.ibb.co/gJ3PMD2/7dfdoy.jpg')">
+      <div class="hero-content">
+        <div class="profile-card">
+          <img src="https://i.ibb.co/gJ3PMD2/7dfdoy.jpg" alt="Web Developer">
+          <h1>George Gerfen</h1>
+          <p>Web Developer | UX Designer | Creative Thinker</p>
+        </div>
+      </div>
+    </header>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer and UX designer with a love for creating user-friendly and visually appealing websites. With a background in computer science and design, I bring a unique perspective to every project I work on.</p>
+        <p>My goal is to build web experiences that not only look great but also provide a seamless user journey. Let's work together to bring your ideas to life!</p>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>My Projects</h2>
+        <!-- Project 1: Band Website -->
+        <div class="project-card">
+          <h3>Band Website</h3>
+          <p>A website for a music band with information about their music, shows, and more.</p>
+          <a href="https://mega.nz/file/rYdnVIYR#h1Z1p6hQ0tcYBSsCwRL3DOD6d-2-LuioA4GsjRkuPCQ" class="btn btn-primary">View Project</a>
+        </div>
+        <!-- Project 2: Gym Website -->
+        <div class="project-card">
+          <h3>Gym Website</h3>
+          <p>A website for a gym providing information about classes, location, and contact details.</p>
+          <a href="https://mega.nz/file/zBE3AYBS#x9SimWMeZd-3Rno7uGh8Het8wDuyJwyrSYBj2UXBOd8" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or just want to say hello? Feel free to reach out to me using the form below.</p>
+        <form action="#" method="POST" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 George Gerfen Web Development</p>
+      </div>
+    </footer>
+  </body>
+</html>
